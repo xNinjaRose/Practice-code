@@ -1,0 +1,21 @@
+#! /bin/python3.7
+
+from datetime import datetime
+
+now = datetime.now()
+
+mm = str(now.month)
+
+dd = str(now.day)
+
+yyyy = str(now.year)
+
+hour = str(now.hour)
+
+mi = str(now.minute)
+
+ss = str(now.second)
+
+print ("Todays Date and Time are:")
+print (mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss)
+print ("Copyright 2019 - RoseSecurities")
